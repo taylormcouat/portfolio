@@ -1,0 +1,45 @@
+{% extends "layout.html" %}
+{% block content %}
+
+<!-- Masthead-->
+        <header class="masthead-projects bg-white text-white text-center">
+            <div class="container d-flex align-items-center flex-column">
+                <!-- Masthead Avatar Image-->
+                <!-- Masthead Heading-->
+                <h1 class="masthead-heading bg-secondary text-uppercase mb-0 p-1 rounded">PROJECTS</h1>
+                <!-- Icon Divider-->
+                <div class="divider-custom divider-light">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-circle"></i></div>
+                    <div class="divider-custom-line"></div>
+                </div>
+                <!-- Masthead Subheading-->
+                <p class="masthead-subheading bg-secondary font-weight-light mb-0 p-1 rounded">Personal and Academic Projects</p>
+            </div>
+        </header>
+
+        <section class="page-section" id="portfolioProject">
+            <div class="container">
+            	<h1 class="page-section-heading-different text-center text-uppercase text-secondary mb-2"><u>Personal Projects</u></h2>
+            		<br><br>
+            		<span>
+            			<h2 class="bottom-border-text">Portfolio Website Project <span class="right-j">January 2021</span></h3>
+            			<h4>Description:</h4>
+            				<p>Interactive website that contains my technical and academic experience along with a showcase of my personal and academic projects.</p>
+            			<h4>Technology used:</h4>
+            			<ul>
+            				<li>Back-end of website written in Python, utilizing the Flask web framework</li>
+            				<li>Front-end of website written in HTML, CSS, and Javascript. Utilizes pre-made bootstrap packages</li>
+            				<li>Website deployed on a remote linux server managed by Linode</li>
+            			</ul>
+            		<div class="text-center">
+                        <a class="btn-lg btn-outline btn-social mx-1" href="https://github.com/taylormcouat/portfolio-website"><i class="fab fa-fw fa-github"></i></a>
+                    </div>
+            		</span>
+            		<div class="container">
+						<img src= "{{ url_for('static', filename='img/projects/portfolio project/html_code.png')}}">
+						<img src= "{{ url_for('static', filename='img/projects/portfolio project/python_code.png')}}">
+					</div>
+           	</div>
+        </section>
+{% endblock content %}
