@@ -33,12 +33,73 @@
             				<li>Website deployed on a remote linux server managed by Linode</li>
             			</ul>
             		<div class="text-center">
-                        <a class="btn-lg btn-outline btn-social mx-1" href="https://github.com/taylormcouat/portfolio-website"><i class="fab fa-fw fa-github"></i></a>
+                        <a class="btn-lg btn-outline btn-social mx-1" href="https://github.com/taylormcouat/portfolio"><i class="fab fa-fw fa-github"></i></a>
                     </div>
             		</span>
             		<div class="container">
 						<img src= "{{ url_for('static', filename='img/projects/portfolio project/html_code.png')}}">
 						<img src= "{{ url_for('static', filename='img/projects/portfolio project/python_code.png')}}">
+					</div>
+           	</div>
+        </section>
+
+         <section class="page-section" id="twitterProject">
+            <div class="container">
+            		<br><br>
+            		<span>
+            			<h2 class="bottom-border-text">Twitter Bot Project<span class="right-j">November 2020</span></h3>
+            			<h4>Description:</h4>
+            				<p>Twitter account that sends customed tweets based on the mention it recieves.</p>
+            			<h4>Technology used:</h4>
+            			<ul>
+            				<li>Bot was developed and managed with Python.</li>
+            				<li>Twitter's developer API was used to fetch and send tweets</li>
+            			</ul>
+            		<div class="text-center">
+                        <a class="btn-lg btn-outline btn-social mx-1" href="https://github.com/taylormcouat/twitterbot"><i class="fab fa-fw fa-github"></i></a>
+                    </div>
+            		</span>
+            		<div class="container">
+						<img src= "{{ url_for('static', filename='img/projects/twitter bot/example.png')}}">
+					</div>
+           	</div>
+        </section>
+
+        <section class="page-section" id="cpen211Project">
+            <div class="container">
+            	<h1 class="page-section-heading-different text-center text-uppercase text-secondary mb-2"><u>Academic Projects</u></h2>
+            		<br><br>
+            		<span>
+            			<h2 class="bottom-border-text">Multithreaded Wikipedia Server<span class="right-j">December 2020</span></h3>
+            			<h4>Description:</h4>
+            				<p>Server that accepts JSON requests for information on Wikipedia and responds with appropriate information. Designed with a concurrent framework to ensure thread-safety for multiple users.</p>
+            			<h4>Technology used:</h4>
+            			<ul>
+            				<li>Server and associated programs were written in Java and compiled and tested using Gradle</li>
+            				<li>JWiki and Gson API's used to fetch and format appropriate requests</li>
+            				<li>Basic grammar was implemented using ANTLR</li>
+            				<li>IntelliJ IDE was used to manage and write code</li>
+            				<li>Utilized Github to work effectively with other members on seperate branches</li>
+            			</ul>
+            		</span>
+           	</div>
+        </section>
+
+        <section class="page-section" id="cpen211Project">
+            <div class="container">
+            		<span>
+            			<h2 class="bottom-border-text">Simple RISC Machine<span class="right-j">December 2020</span></h3>
+            			<h4>Description:</h4>
+            				<p>"Reduced Instruction Set Computer" deployed on the Arm Cyclone V processor. Capable of basic ARM instructions, such as MOV, AND, CMP and more advanced conditional branching processes. Supports communication with connected I/O devices.</p>
+            			<h4>Technology used:</h4>
+            			<ul>
+            				<li>The RISC was developed using Verilog, compiled on Quartus.</li>
+            				<li>Test benches were developed using ModelSim to simulate verilog waveforms</li>
+            				<li>The simple RISC machine was hosted on the DE1-SoC FPGA</li>
+            			</ul>
+            		</span>
+            		<div class="container">
+						<img src= "{{ url_for('static', filename='img/projects/De1-SoC/fpga.jpg')}}">
 					</div>
            	</div>
         </section>
