@@ -2125,6 +2125,10 @@ textarea.form-control {
   padding-left: 1.25rem;
 }
 
+.center-img {
+  text-align: center;
+}
+
 .form-check-input {
   position: absolute;
   margin-top: 0.3rem;

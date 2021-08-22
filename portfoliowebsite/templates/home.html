@@ -138,11 +138,11 @@
                     </div>
                     <!-- Icon Item 8-->
                     <div class="col-md-6 col-lg-4 mb-5">
-                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#verilogModal">
+                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#javascriptModal">
                             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                                 <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
                             </div>
-                            <img class="img-fluid" src="{{ url_for('static', filename= 'img/codelogos/verilog.png') }}" alt="" />
+                            <img class="img-fluid" src="{{ url_for('static', filename= 'img/codelogos/javascript.png') }}" alt="" />
                         </div>
                     </div>
                     <!-- Icon Item 9 -->
@@ -172,7 +172,7 @@
                 </div>
                 <!-- About Section Content-->
                 <div class="row">
-                    <div class="col-lg-4 ml-auto"><p class="lead">I am a computer engineering student at UBC with a degree in Chemistry from the University of Calgary. I enjoy solving complex problems, analyzing data and developing new tools! In my free time I do improv, play tennis and make videos. I am currently searching for an analyst or software development internship for May 2021. </p></div>
+                    <div class="col-lg-4 ml-auto"><p class="lead">I am a computer engineering student at UBC with a degree in Chemistry from the University of Calgary. I enjoy solving complex problems, analyzing data and developing new tools! In my free time I do improv, play tennis and make videos. I am currently searching for a software development internship for May 2022.</p></div>
                     <div class="col-lg-4 mr-auto"><img class="rounded" src="{{ url_for('static', filename='img/profile/taylor.jpg') }}" width= 320 height = 320></div>
                 </div>
             </div>
@@ -292,6 +292,7 @@
                                     <!-- Portfolio Modal - Text-->
                                      <ul class="ul mb-5">
                                         <li><a href="/projects">Portfolio Website Project</a></li>
+                                        <li><a href="/experience">Work Experience - Castofly</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -324,6 +325,7 @@
                                     <!-- Portfolio Modal - Text-->
                                     <ul class="ul mb-5 list">
                                         <li><a href="/education#courses">CPEN 221 - Principles of Software Construction</a></li>
+                                        <li><a href="/experience">Work Experience - Castofly</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -388,9 +390,11 @@
                                     <img class="img-fluid rounded mb-5" src="{{ url_for('static', filename= 'img/codelogos/python.png') }}" alt="" />
                                     <!-- Portfolio Modal - Text-->
                                     <ul class="ul mb-5 list">
-                                        <li><a href="/projects#twitterProject">Twitter Bot Project</a></li>
-                                        <li><a href="/projects">Portfolio Website Project</a></li>
+                                        <li><a href="/experience">Work Experience - Balancing Pool</a></li>
                                         <li><a href="/experience">Engineering Team - UBC Envision</a></li>
+                                        <li><a href="/projects">TrailBlaze Backend & Machine Learning Model</a></li>
+                                        <li><a href="/projects">Portfolio Website Project</a></li>
+                                        <li><a href="/education#courses">CPEN 291 - Engineering Design Studio</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -425,8 +429,11 @@
                                         <li><a href="/education#courses">CHBE 230 - Computational Methods</a></li>
                                         <li><a href="/education#courses">CPEN 211 - Introduction to Microcomputers</a></li>
                                         <li><a href="/education#courses">CPEN 221 - Principles of Software Construction</a></li>
+                                        <li><a href="/education#courses">CPEN 291 - Engineering Design Studio</a></li>
+                                        <li><a href="/education#courses">CPSC 221 - Basic Algorithms and Data Structures</a></li>
+                                        <li><a href="/education#courses">CPSC 261 - Basics of Computer Systems</a></li>
                                         <li><a href="/experience">Work Experience - Balancing Pool</a></li>
-                                        <li><a href="/projects#twitterProject">Twitter Bot Project</a></li>
+                                        <li><a href="/experience">Work Experience - Castofly</a></li>
                                         <li><a href="/projects">Portfolio Website Project</a></li>
                                     </ul>
                                 </div>
@@ -493,6 +500,7 @@
                                     <!-- Portfolio Modal - Text-->
                                     <ul class="ul mb-5">
                                         <li><a href="/projects">Portfolio Website Project</a></li>
+                                        <li><a href="/experience">Work Experience - Castofly</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -501,8 +509,8 @@
                 </div>
             </div>
         </div>
-        <!-- Verilog Modal 7-->
-        <div class="portfolio-modal modal fade" id="verilogModal" tabindex="-1" role="dialog" aria-labelledby="verilogModalLabel" aria-hidden="true">
+        <!-- JavaScript Modal 7-->
+        <div class="portfolio-modal modal fade" id="javascriptModal" tabindex="-1" role="dialog" aria-labelledby="verilogModalLabel" aria-hidden="true">
             <div class="modal-dialog modal-xl" role="document">
                 <div class="modal-content">
                     <button class="close" type="button" data-dismiss="modal" aria-label="Close">
@@ -513,7 +521,7 @@
                             <div class="row justify-content-center">
                                 <div class="col-lg-8">
                                     <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0" id="verilogModalLabel">Verilog</h2>
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0" id="verilogModalLabel">JavaScript</h2>
                                     <!-- Icon Divider-->
                                     <div class="divider-custom">
                                         <div class="divider-custom-line"></div>
@@ -521,10 +529,11 @@
                                         <div class="divider-custom-line"></div>
                                     </div>
                                     <!-- Portfolio Modal - Image-->
-                                    <img class="img-fluid rounded mb-5" src="{{ url_for('static', filename= 'img/codelogos/verilog.png') }}" alt="" />
+                                    <img class="img-fluid rounded mb-5" src="{{ url_for('static', filename= 'img/codelogos/javascript.png') }}" alt="" />
                                     <!-- Portfolio Modal - Text-->
                                     <ul class="ul mb-5">
-                                        <li><a href="/education#courses">CPEN 211 - Introduction to Microcomputers</a></li>
+                                        <li><a href="/projects">Portfolio Website Project</a></li>
+                                        <li><a href="/experience">Work Experience - Castofly</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -557,6 +566,8 @@
                                     <!-- Portfolio Modal - Text-->
                                     <ul class="ul mb-5">
                                         <li><a href="/education#courses">APSC 160 - Introduction to Computation in Engineering Design</a></li>
+                                        <li><a href="/education#courses">CPSC 221 - Basic Algorithms and Data Structures</a></li>
+                                        <li><a href="/education#courses">CPSC 261 - Basics of Computer Systems</a></li>
                                     </ul>
                                 </div>
                             </div>

@@ -18,9 +18,33 @@
             </div>
         </header>
 
+		<section class="page-section" id="trailblaze">
+            <div class="container">
+                    <br><br>
+                    <span>
+                        <h2 class="bottom-border-text">TrailBlaze<span class="right-j">April 2021</span></h3>
+                        <h4>Description:</h4>
+                            <p>Trailblaze is a Tinder-style mobile application created to connect hikers with the best views offered by British Columbian trails. It combines two machine learning models to recommend hikes tailored to the user’s preferences. The first model, an embedding-based recommender system, is used to generate a list of hikes similar to the user’s previously liked hikes; the second model, an image classifier, is used to identify visual features in liked images, and recommend hikes which contain similar features. These two models are connected behind the scenes to a mobile app, so the user can find new hikes from wherever they are. The combination of powerful machine learning and the convenience of a mobile application make Trailblaze the ideal tool to help hikers on the move find their next destination.</p>
+                        <h4>Technology used:</h4>
+                        <ul>
+                            <li>Mobile application built in Dart, utilizing Flutter framework</li>
+                            <li>Backend is a Flask API that communicates with a recommender machine learning model, built with PyTorch</li>
+                        </ul>
+                    <div class="text-center">
+                        <a class="btn-lg btn-outline btn-social mx-1" href="https://github.com/taylormcouat/trailblaze"><i class="fab fa-fw fa-github"></i></a>
+                    </div>
+                    </span>
+                    <div class="container">
+                        <video controls>
+                            <source src="{{ url_for('static', filename='vid/trailblaze-demo.mp4') }}">
+                                Sorry, your browser doesnt support embedded videos.
+                        </video>
+                    </div>
+            </div>
+        </section>
+
         <section class="page-section" id="portfolioProject">
             <div class="container">
-            	<h1 class="page-section-heading-different text-center text-uppercase text-secondary mb-2"><u>Personal Projects</u></h2>
             		<br><br>
             		<span>
             			<h2 class="bottom-border-text">Portfolio Website Project <span class="right-j">January 2021</span></h3>
@@ -67,49 +91,6 @@
                     </div>
             </div>
         </section>
-
-         <section class="page-section" id="twitterProject">
-            <div class="container">
-            		<br><br>
-            		<span>
-            			<h2 class="bottom-border-text">Twitter Bot Project<span class="right-j">November 2020</span></h3>
-            			<h4>Description:</h4>
-            				<p>Twitter account that sends customed tweets based on the mention it recieves.</p>
-            			<h4>Technology used:</h4>
-            			<ul>
-            				<li>Bot was developed and managed with Python.</li>
-            				<li>Twitter's developer API was used to fetch and send tweets</li>
-            			</ul>
-            		<div class="text-center">
-                        <a class="btn-lg btn-outline btn-social mx-1" href="https://github.com/taylormcouat/twitterbot"><i class="fab fa-fw fa-github"></i></a>
-                    </div>
-            		</span>
-            		<div class="container">
-						<img src= "{{ url_for('static', filename='img/projects/twitterbot/example.png')}}">
-					</div>
-           	</div>
-        </section>
-
-        <section class="page-section" id="cpen211Project">
-            <div class="container">
-            	<h1 class="page-section-heading-different text-center text-uppercase text-secondary mb-2"><u>Academic Projects</u></h2>
-            		<br><br>
-            		<span>
-            			<h2 class="bottom-border-text">Multithreaded Wikipedia Server<span class="right-j">December 2020</span></h3>
-            			<h4>Description:</h4>
-            				<p>Server that accepts JSON requests for information on Wikipedia and responds with appropriate information. Designed with a concurrent framework to ensure thread-safety for multiple users.</p>
-            			<h4>Technology used:</h4>
-            			<ul>
-            				<li>Server and associated programs were written in Java and compiled and tested using Gradle</li>
-            				<li>JWiki and Gson API's used to fetch and format appropriate requests</li>
-            				<li>Basic grammar was implemented using ANTLR</li>
-            				<li>IntelliJ IDE was used to manage and write code</li>
-            				<li>Utilized Github to work effectively with other members on seperate branches</li>
-            			</ul>
-            		</span>
-           	</div>
-        </section>
-
         <section class="page-section" id="cpen211Project">
             <div class="container">
             		<span>
